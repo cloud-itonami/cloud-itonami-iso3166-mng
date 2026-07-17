@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "mng.dish.buuz", :name "Buuz", :country "MNG", :kind :dish, :summary "Mongolian steamed dumpling filled with meat, traditionally eaten during Tsagaan Sar (Lunar New Year).", :url "https://en.wikipedia.org/wiki/Buuz", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mng.dish.khorkhog", :name "Khorkhog", :country "MNG", :kind :dish, :summary "Barbecue dish in Mongolian cuisine in which meat is cooked inside a sealed container together with hot stones and water.", :url "https://en.wikipedia.org/wiki/Khorkhog", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mng.dish.aaruul", :name "Aaruul", :country "MNG", :kind :dish, :summary "Dried dairy product made from strained yogurt, buttermilk or sour milk, part of the broader Central/Inner Asian kashk family; in Mongolia it is called aaruul or khuruud.", :url "https://en.wikipedia.org/wiki/Kashk", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mng.beverage.airag", :name "Airag", :country "MNG", :kind :beverage, :summary "Traditional fermented dairy product made from mare milk, with strong cultural significance in Mongolia as both a beverage and place name.", :url "https://en.wikipedia.org/wiki/Airag", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mng.product.cashmere", :name "Mongolian cashmere", :country "MNG", :kind :product, :summary "Mongolia is the world's second-largest cashmere producer, supplying about 9,600 tons of raw cashmere per year as of 2016.", :url "https://en.wikipedia.org/wiki/Cashmere_wool", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mng.craft.mongolian-calligraphy", :name "Mongolian calligraphy", :country "MNG", :kind :craft, :summary "Traditional art of decorative writing in the classical Mongolian script, inscribed on the UNESCO List of Intangible Cultural Heritage in Need of Urgent Safeguarding in 2013.", :url "https://en.wikipedia.org/wiki/Mongolian_calligraphy", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mng.festival.naadam", :name "Naadam", :country "MNG", :kind :festival, :summary "Traditional festival celebrated in Mongolia involving wrestling, horse racing and archery, inscribed on the Representative List of the Intangible Cultural Heritage of Humanity in 2010.", :url "https://en.wikipedia.org/wiki/Naadam", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mng.heritage.orkhon-valley", :name "Orkhon Valley Cultural Landscape", :country "MNG", :kind :heritage, :summary "UNESCO World Heritage Site along the Orkhon River in central Mongolia, inscribed in 2004 for representing nomadic pastoral traditions spanning over two millennia.", :url "https://en.wikipedia.org/wiki/Orkhon_Valley_Cultural_Landscape", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
