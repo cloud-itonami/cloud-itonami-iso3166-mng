@@ -21,4 +21,4 @@ lack MED permission verification are held before a filing can proceed.
 Entity: the General Authority for State Registration's legal-entity
 registration certificate; tax/social-insurance registration is tracked
 separately (specific tax-authority citation not independently confirmed
-this session -- see `src/statute/facts.cljc`). Human-gated filing only.
+this session -- see `src/statute/facts.cljk`). Human-gated filing only.
