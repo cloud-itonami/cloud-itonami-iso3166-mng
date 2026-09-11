@@ -48,7 +48,7 @@ number, and whether a reported 2023 revision was enacted):
   recompute, grep-verified absent (as a governor check function name)
   across the four iso3166 siblings this iteration cloned and read this
   session, a genuinely different shape from every one of them.
-- `src/statute/facts.cljc` -- general-law catalog: the Investment Law
+- `src/statute/facts.cljk` -- general-law catalog: the Investment Law
   (2013) itself (also catalogued here as an ongoing compliance statute),
   the Labor Law (revised/adopted July 2021, effective 1 January 2022),
   the Permits Law (2022, Articles 8.1/8.2 independently confirmed for
@@ -86,7 +86,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Mongolia:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
